@@ -1,0 +1,31 @@
+body {
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    background-color: lightsteelblue;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: #3366cc;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
